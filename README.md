@@ -1,11 +1,29 @@
 # Michael's Essential Vim 
 
+This guide intends to help you use vim effectively with minimal learning involved.
+
+The focus here is on *what to learn first*, based on what features give you the
+most bang for your buck. Each section teaches you just a few keybinds, which you
+can use until they become second nature, then you can move to the next section at
+your own pace.
+
+As such, this guide isn't focused on giving the best explanations. To gain a
+deeper understanding, look at the documentation (`:help`, 
+[the Vim wiki](https://antifandom.com/vim/wiki/Vim_Tips_Wiki),
+[SO](https://stackoverflow.com/questions/tagged/vim?tab=Votes), etc) 
+
+Still, stay curious! If you want to know how to do something *now* (for instance,
+how to replace all instances of a given word), the answer is just a google away.
+
 ## vimrc
 
 The vimrc file (`$HOME/.vimrc` on linux/mac or `$HOME/_vimrc` on Windows) stores
 personal configuration for vim.
 
-These options are maximally recommended to all skill levels.
+These options are maximally recommended to all skill levels. You're welcome to
+smack them in your vimrc file without thinking, but descriptions are given if you
+want them.
+
 ```vim
 """ Essential
 set mouse=a " allow use of mouse
